@@ -26,9 +26,4 @@ describe('countLetters', () => {
         assert.strictEqual(typeof countLetters(''), 'object');
         assert.strictEqual(Array.isArray(countLetters('')), false);
     });
-
-    it('should work for undefined', () => {
-        assert.strictEqual(typeof countLetters(undefined), 'object');
-        assert.strictEqual(Array.isArray(countLetters(undefined)), false);
-    });
 })

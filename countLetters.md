@@ -11,7 +11,6 @@ Be sure to meet the following requirements from the tests:
     2) should still work if string has spaces
     3) should be case sensitive (e.g M & m should be counted seperately)
     4) should work for an empty string
-    5) should work for undefined
 
 Example:
 ```javascript
